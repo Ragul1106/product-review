@@ -13,4 +13,4 @@ def review():
     return render_template("review.html", form=form)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
